@@ -1,0 +1,4 @@
+rootProject.name = "WillyArm"
+include ':app'
+include ':openCVLibrary342'
+project(':openCVLibrary342').projectDir = new File(opencvsdk + '/sdk')
